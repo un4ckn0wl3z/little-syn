@@ -24,4 +24,4 @@ for x in range(0,threads):
 	thread.start_new_thread(synflood,(target,port))
 
 while 1:
-sleep(1)
+	sleep(1)
